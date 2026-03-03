@@ -93,7 +93,7 @@ http://localhost:5000
 
 ---
 
-## 📂 ディレクトリ構成例
+## 📂 ディレクトリ構成
 
 ```
 project/
@@ -105,6 +105,7 @@ project/
 │   ├── index.html
 │   └── mail.html
 ├── mail.db（自動生成）
+├── .gitignore
 └── README.md
 ```
 
@@ -130,8 +131,8 @@ project/
 
 ## ⚠ 注意事項
 
-- mboxファイルや mail.db はGit管理しないことを推奨します
-- `.gitignore` に以下を追加してください：
+- mboxファイルや mail.db はGit管理しないようにしてください
+- `.gitignore` には以下が設定済みです：
   ```
   input.mbox
   mail.db
